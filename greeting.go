@@ -9,7 +9,7 @@ import (
 func Hello(name string) (string, error) {
 
     // If no name was given, return an error message.
-    if namme == "" {
+    if name == "" {
 	    return "", errors.New("empty name")
     }
 
